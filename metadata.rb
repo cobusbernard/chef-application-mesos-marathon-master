@@ -1,0 +1,7 @@
+name             'chef-application-mesos-marathon-master'
+maintainer       'Cobus Bernard'
+maintainer_email 'me@cobus.io'
+license          'MIT'
+description      'Installs/Configures chef-application-mesos-marathon-master'
+long_description 'Installs/Configures chef-application-mesos-marathon-master'
+version          '0.1.0'
