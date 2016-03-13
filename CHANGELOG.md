@@ -1,5 +1,9 @@
 # 0.1.1
 
+Adding Consul server back.
+
+# 0.1.1
+
 Fixing dependency issues.
 
 # 0.1.0
