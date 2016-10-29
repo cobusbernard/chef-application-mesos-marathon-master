@@ -1,3 +1,7 @@
+# 0.1.4
+
+Adding in a template for traefik.
+
 # 0.1.2
 
 Removing Consul again. :)

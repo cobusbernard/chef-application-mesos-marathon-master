@@ -28,3 +28,21 @@ include_recipe "chef-wrapper-zookeeper::default"
 include_recipe "chef-wrapper-mesos::master"
 include_recipe "chef-wrapper-mesos::slave"
 include_recipe "chef-wrapper-marathon::default"
+
+directory '/mnt/data/configs/traefik' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+  recursive true
+end
+
+template "/mnt/data/configs/traefik/traefik.toml" do
+  source "traefik.erb"
+  owner 'root'
+  group 'root'
+  mode '0755'
+  variables({
+   :traefik_domain => node['traefik']['domain']
+  })
+end

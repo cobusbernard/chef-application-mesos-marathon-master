@@ -4,7 +4,7 @@ maintainer_email 'me@cobus.io'
 license          'MIT'
 description      'Installs/Configures chef-application-mesos-marathon-master'
 long_description 'Installs/Configures chef-application-mesos-marathon-master'
-version          '0.1.3'
+version          '0.1.4'
 
 depends 'chef-wrapper-zookeeper'
 depends 'chef-wrapper-mesos'
